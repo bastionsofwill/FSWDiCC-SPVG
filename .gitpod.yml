@@ -1,4 +1,4 @@
-
+# 
 tasks:
   - init: npm install && npm run build
     command: |
@@ -14,3 +14,9 @@ vscode:
     - svelte.svelte-vscode
     - zhuangtongfa.material-theme
     - PKief.material-icon-theme
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
